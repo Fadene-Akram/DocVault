@@ -1,0 +1,690 @@
+{
+  "users": [
+    {
+      "id": "1",
+      "name": "Alice Admin",
+      "email": "admin@docvault.io",
+      "password": "admin123",
+      "role": "admin",
+      "departmentId": "1",
+      "status": "active",
+      "createdAt": "2024-01-10T09:00:00Z",
+      "avatar": "AA"
+    },
+    {
+      "id": "2",
+      "name": "Bob Builder",
+      "email": "bob@docvault.io",
+      "password": "user123",
+      "role": "user",
+      "departmentId": "2",
+      "status": "active",
+      "createdAt": "2024-02-14T10:30:00Z",
+      "avatar": "BB"
+    },
+    {
+      "id": "3",
+      "name": "Carol Chen",
+      "email": "carol@docvault.io",
+      "password": "user123",
+      "role": "user",
+      "departmentId": "1",
+      "status": "active",
+      "createdAt": "2024-03-01T08:00:00Z",
+      "avatar": "CC"
+    },
+    {
+      "id": "4",
+      "name": "Dave Doe",
+      "email": "dave@docvault.io",
+      "password": "user123",
+      "role": "user",
+      "departmentId": "3",
+      "status": "suspended",
+      "createdAt": "2024-03-20T11:00:00Z",
+      "avatar": "DD"
+    },
+    {
+      "id": "5",
+      "name": "Eva Evans",
+      "email": "eva@docvault.io",
+      "password": "user123",
+      "role": "user",
+      "departmentId": "2",
+      "status": "active",
+      "createdAt": "2024-04-05T14:00:00Z",
+      "avatar": "EE"
+    },
+    {
+      "name": "akram",
+      "email": "akram.fadene@ensia.edu.dz",
+      "password": "akramakram",
+      "role": "user",
+      "departmentId": "1",
+      "status": "active",
+      "avatar": "A",
+      "createdAt": "2026-04-11T13:47:52.263Z",
+      "id": "9WEPley"
+    },
+    {
+      "name": "example",
+      "email": "example@gmail.com",
+      "password": "222222222",
+      "role": "user",
+      "departmentId": "2",
+      "status": "active",
+      "avatar": "E",
+      "createdAt": "2026-04-18T14:38:52.258Z",
+      "id": "9T3OxC-"
+    },
+    {
+      "name": "example2",
+      "email": "example2@yahoo.com",
+      "password": "22222222222",
+      "role": "user",
+      "departmentId": "3",
+      "status": "active",
+      "avatar": "E",
+      "createdAt": "2026-04-18T14:39:23.617Z",
+      "id": "jn1juq1"
+    },
+    {
+      "name": "Liam Turner",
+      "email": "liam.turner@docvault.io",
+      "password": "user123",
+      "role": "user",
+      "departmentId": "1",
+      "status": "active",
+      "avatar": "LT",
+      "createdAt": "2026-04-18T14:45:57.983Z",
+      "id": "H5GJQa1"
+    },
+    {
+      "name": "Noah Brooks",
+      "email": "noah.brooks@docvault.io",
+      "password": "user123",
+      "role": "user",
+      "departmentId": "3",
+      "status": "active",
+      "avatar": "NB",
+      "createdAt": "2026-04-18T14:45:57.983Z",
+      "id": "v-iAXIA"
+    },
+    {
+      "name": "Olivia Perez",
+      "email": "olivia.perez@docvault.io",
+      "password": "user123",
+      "role": "user",
+      "departmentId": "2",
+      "status": "active",
+      "avatar": "OP",
+      "createdAt": "2026-04-18T14:45:57.983Z",
+      "id": "3ZCLDW6"
+    },
+    {
+      "name": "James Wilson",
+      "email": "james.wilson@docvault.io",
+      "password": "admin123",
+      "role": "admin",
+      "departmentId": "1",
+      "status": "active",
+      "avatar": "JW",
+      "createdAt": "2026-04-18T14:45:57.983Z",
+      "id": "_XjklPC"
+    },
+    {
+      "name": "Ethan Clark",
+      "email": "ethan.clark@docvault.io",
+      "password": "user123",
+      "role": "user",
+      "departmentId": "3",
+      "status": "active",
+      "avatar": "EC",
+      "createdAt": "2026-04-18T14:45:57.983Z",
+      "id": "yk72msP"
+    },
+    {
+      "name": "Liam Turner",
+      "email": "liam.turner@docvault.io",
+      "password": "user123",
+      "role": "user",
+      "departmentId": "1",
+      "status": "active",
+      "avatar": "LT",
+      "createdAt": "2026-04-18T14:47:10.250Z",
+      "id": "1z7KDnc"
+    },
+    {
+      "name": "Sophia Martin",
+      "email": "sophia.martin@docvault.io",
+      "password": "user123",
+      "role": "user",
+      "departmentId": "2",
+      "status": "active",
+      "avatar": "SM",
+      "createdAt": "2026-04-18T14:47:10.250Z",
+      "id": "fAmU4AE"
+    },
+    {
+      "name": "Noah Brooks",
+      "email": "noah.brooks@docvault.io",
+      "password": "user123",
+      "role": "user",
+      "departmentId": "3",
+      "status": "active",
+      "avatar": "NB",
+      "createdAt": "2026-04-18T14:47:10.250Z",
+      "id": "6zNa1-5"
+    },
+    {
+      "name": "Olivia Perez",
+      "email": "olivia.perez@docvault.io",
+      "password": "user123",
+      "role": "user",
+      "departmentId": "2",
+      "status": "active",
+      "avatar": "OP",
+      "createdAt": "2026-04-18T14:47:10.250Z",
+      "id": "07cgeb9"
+    },
+    {
+      "name": "James Wilson",
+      "email": "james.wilson@docvault.io",
+      "password": "admin123",
+      "role": "admin",
+      "departmentId": "1",
+      "status": "active",
+      "avatar": "JW",
+      "createdAt": "2026-04-18T14:47:10.250Z",
+      "id": "2HEF7Rj"
+    },
+    {
+      "name": "Mia Johnson",
+      "email": "mia.johnson@docvault.io",
+      "password": "user123",
+      "role": "user",
+      "departmentId": "2",
+      "status": "active",
+      "avatar": "MJ",
+      "createdAt": "2026-04-18T14:47:10.250Z",
+      "id": "oJYeKvT"
+    }
+  ],
+  "departments": [
+    {
+      "id": "1",
+      "name": "Engineering",
+      "description": "Software & Systems",
+      "managerId": "1"
+    },
+    {
+      "id": "2",
+      "name": "Marketing",
+      "description": "Brand & Growth",
+      "managerId": "2"
+    },
+    {
+      "id": "3",
+      "name": "Finance",
+      "description": "Accounting & Reporting",
+      "managerId": "4"
+    }
+  ],
+  "categories": [
+    {
+      "id": "1",
+      "name": "Technical",
+      "color": "#0EA5E9",
+      "icon": "settings"
+    },
+    {
+      "id": "2",
+      "name": "Policy",
+      "color": "#10B981",
+      "icon": "clipboard"
+    },
+    {
+      "id": "3",
+      "name": "Report",
+      "color": "#6366F1",
+      "icon": "file"
+    },
+    {
+      "id": "4",
+      "name": "Design",
+      "color": "#EC4899",
+      "icon": "palette"
+    },
+    {
+      "id": "5",
+      "name": "Legal",
+      "color": "#4F46E5",
+      "icon": "scale"
+    }
+  ],
+  "documents": [
+    {
+      "id": "2",
+      "title": "Q1 Financial Report",
+      "description": "Comprehensive quarterly financial report covering revenue, expenses, and forecasts for Q1 2024.",
+      "categoryId": "3",
+      "departmentId": "3",
+      "authorId": "4",
+      "status": "published",
+      "tags": [
+        "finance",
+        "quarterly",
+        "2024"
+      ],
+      "currentVersion": "1.0.0",
+      "fileSize": "1.2 MB",
+      "fileType": "XLSX",
+      "createdAt": "2024-04-01T08:00:00Z",
+      "updatedAt": "2024-04-01T08:00:00Z"
+    },
+    {
+      "id": "3",
+      "title": "Remote Work Policy",
+      "description": "Updated remote work guidelines including eligibility criteria, equipment policy, and communication expectations.",
+      "categoryId": "2",
+      "departmentId": "1",
+      "authorId": "1",
+      "status": "draft",
+      "tags": [
+        "hr",
+        "policy",
+        "remote"
+      ],
+      "currentVersion": "1.2.1",
+      "fileSize": "89 KB",
+      "fileType": "DOCX",
+      "createdAt": "2024-03-10T14:00:00Z",
+      "updatedAt": "2026-04-11T13:44:57.242Z"
+    },
+    {
+      "id": "4",
+      "title": "Brand Identity System",
+      "description": "Complete brand guidelines: logo usage, color palette, typography, and design tokens for digital and print.",
+      "categoryId": "4",
+      "departmentId": "2",
+      "authorId": "5",
+      "status": "published",
+      "tags": [
+        "brand",
+        "design",
+        "guidelines"
+      ],
+      "currentVersion": "3.0.0",
+      "fileSize": "5.6 MB",
+      "fileType": "PDF",
+      "createdAt": "2024-02-20T09:00:00Z",
+      "updatedAt": "2024-03-28T16:00:00Z"
+    },
+    {
+      "id": "5",
+      "title": "Data Processing Agreement",
+      "description": "GDPR-compliant data processing agreement template for vendor onboarding and third-party integrations.",
+      "categoryId": "5",
+      "departmentId": "1",
+      "authorId": "3",
+      "status": "published",
+      "tags": [
+        "legal",
+        "gdpr",
+        "compliance"
+      ],
+      "currentVersion": "1.0.0",
+      "fileSize": "156 KB",
+      "fileType": "PDF",
+      "createdAt": "2024-01-30T13:00:00Z",
+      "updatedAt": "2024-01-30T13:00:00Z"
+    },
+    {
+      "id": "6",
+      "title": "Marketing Campaign Playbook",
+      "description": "Step-by-step guide for planning, executing, and measuring marketing campaigns across all channels.",
+      "categoryId": "2",
+      "departmentId": "2",
+      "authorId": "2",
+      "status": "published",
+      "tags": [
+        "marketing",
+        "campaigns",
+        "playbook"
+      ],
+      "currentVersion": "2.0.0",
+      "fileSize": "320 KB",
+      "fileType": "PDF",
+      "createdAt": "2024-03-05T11:00:00Z",
+      "updatedAt": "2024-04-02T10:00:00Z"
+    },
+    {
+      "title": "LAB_5_K8",
+      "description": "dsome description",
+      "categoryId": "1",
+      "departmentId": "1",
+      "status": "draft",
+      "tags": [],
+      "fileType": "PDF",
+      "fileSize": "145 KB",
+      "authorId": "1",
+      "currentVersion": "1.0.0",
+      "createdAt": "2026-04-18T14:24:57.743Z",
+      "updatedAt": "2026-04-18T14:24:57.743Z",
+      "id": "MO6Q6NA"
+    },
+    {
+      "title": "NLP_project report Fall 2025 -2026",
+      "description": "NLP_project report",
+      "categoryId": "3",
+      "departmentId": "1",
+      "status": "published",
+      "tags": [],
+      "fileType": "PDF",
+      "fileSize": "3003 KB",
+      "authorId": "1",
+      "currentVersion": "1.0.0",
+      "createdAt": "2026-04-18T14:26:29.741Z",
+      "updatedAt": "2026-04-18T14:26:29.741Z",
+      "id": "k18rTgt"
+    },
+    {
+      "title": "Robotics Bayes Filter",
+      "description": "sadsdasdasd",
+      "categoryId": "2",
+      "departmentId": "1",
+      "status": "draft",
+      "tags": [],
+      "fileType": "PDF",
+      "fileSize": "1103 KB",
+      "authorId": "1",
+      "currentVersion": "1.0.0",
+      "createdAt": "2026-04-18T14:27:22.416Z",
+      "updatedAt": "2026-04-18T14:27:22.416Z",
+      "id": "g6XaMyF"
+    },
+    {
+      "title": "computer vision Algorithms and Applications",
+      "description": "some description",
+      "categoryId": "3",
+      "departmentId": "1",
+      "status": "published",
+      "tags": [
+        "cv",
+        "ai",
+        "ensia"
+      ],
+      "fileType": "PDF",
+      "fileSize": "22667 KB",
+      "authorId": "1",
+      "currentVersion": "1.1.0",
+      "createdAt": "2026-04-18T15:01:30.921Z",
+      "updatedAt": "2026-04-18T15:03:07.615Z",
+      "id": "Ds8onyx"
+    },
+    {
+      "title": "CVLab4Part2",
+      "description": "ddddddddddddd",
+      "categoryId": "3",
+      "departmentId": "1",
+      "status": "published",
+      "tags": [
+        "fff"
+      ],
+      "authorId": "1",
+      "springId": 40,
+      "fileName": "CVLab4Part2.ipynb",
+      "contentType": "",
+      "fileType": "IPYNB",
+      "fileSize": "3.8 MB",
+      "downloadUrl": "http://localhost:9000/ensia/documents/79194f8f-8b8b-4927-be9b-154ba0994359-CVLab4Part2.ipynb?X-Amz-Algorithm=AWS4-HMAC-SHA256&X-Amz-Date=20260501T225826Z&X-Amz-SignedHeaders=host&X-Amz-Credential=admin%2F20260501%2Fus-east-1%2Fs3%2Faws4_request&X-Amz-Expires=3600&X-Amz-Signature=3003affab2309a23474cf1ad6f9775d8710661d1f860e4427bb3fd045828bd26",
+      "currentVersion": "1.0.0",
+      "createdAt": "2026-05-01T22:58:27.235Z",
+      "updatedAt": "2026-05-01T22:58:27.236Z",
+      "id": "fTewdEn"
+    }
+  ],
+  "versions": [
+    {
+      "id": "v4",
+      "documentId": "3",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial draft",
+      "fileSize": "80 KB",
+      "createdAt": "2024-03-10T14:00:00Z"
+    },
+    {
+      "id": "v5",
+      "documentId": "3",
+      "version": "1.1.0",
+      "authorId": "2",
+      "changelog": "Added equipment policy section",
+      "fileSize": "85 KB",
+      "createdAt": "2024-03-20T10:00:00Z"
+    },
+    {
+      "id": "v6",
+      "documentId": "3",
+      "version": "1.2.0",
+      "authorId": "1",
+      "changelog": "Legal review updates",
+      "fileSize": "89 KB",
+      "createdAt": "2024-04-05T11:00:00Z"
+    },
+    {
+      "id": "v7",
+      "documentId": "4",
+      "version": "1.0.0",
+      "authorId": "5",
+      "changelog": "Initial brand guide",
+      "fileSize": "4.2 MB",
+      "createdAt": "2024-02-20T09:00:00Z"
+    },
+    {
+      "id": "v8",
+      "documentId": "4",
+      "version": "2.0.0",
+      "authorId": "5",
+      "changelog": "New color palette + dark mode tokens",
+      "fileSize": "5.1 MB",
+      "createdAt": "2024-03-15T13:00:00Z"
+    },
+    {
+      "id": "v9",
+      "documentId": "4",
+      "version": "3.0.0",
+      "authorId": "2",
+      "changelog": "Full rebrand — typography overhaul",
+      "fileSize": "5.6 MB",
+      "createdAt": "2024-03-28T16:00:00Z"
+    },
+    {
+      "documentId": "3",
+      "version": "1.2.1",
+      "authorId": "1",
+      "changelog": "cvbncvb",
+      "fileSize": "89 KB",
+      "createdAt": "2026-04-11T13:44:57.213Z",
+      "id": "ahr4Llo"
+    },
+    {
+      "documentId": "MO6Q6NA",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial upload",
+      "fileSize": "145 KB",
+      "createdAt": "2026-04-18T14:24:57.776Z",
+      "id": "2z8DAwg"
+    },
+    {
+      "documentId": "k18rTgt",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial upload",
+      "fileSize": "3003 KB",
+      "createdAt": "2026-04-18T14:26:29.785Z",
+      "id": "nQa2W0K"
+    },
+    {
+      "documentId": "g6XaMyF",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial upload",
+      "fileSize": "1103 KB",
+      "createdAt": "2026-04-18T14:27:22.471Z",
+      "id": "Sw7SwRd"
+    },
+    {
+      "documentId": "Ds8onyx",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial upload",
+      "fileSize": "22667 KB",
+      "createdAt": "2026-04-18T15:01:30.951Z",
+      "id": "k4_eHdX"
+    },
+    {
+      "documentId": "Ds8onyx",
+      "version": "1.1.0",
+      "authorId": "1",
+      "changelog": "updated version 2",
+      "fileSize": "22667 KB",
+      "createdAt": "2026-04-18T15:03:07.588Z",
+      "id": "yWuaUdC"
+    },
+    {
+      "documentId": "fTewdEn",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial upload",
+      "fileSize": "3.8 MB",
+      "createdAt": "2026-05-01T22:58:27.337Z",
+      "id": "A8_TFAP"
+    },
+    {
+      "documentId": "2",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial upload",
+      "fileSize": "144 KB",
+      "createdAt": "2026-05-02T00:01:42.655Z",
+      "id": "Do9sfrw"
+    },
+    {
+      "documentId": "3",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial upload",
+      "fileSize": "903 KB",
+      "createdAt": "2026-05-02T00:10:13.502Z",
+      "id": "X3eM7Id"
+    },
+    {
+      "documentId": "4",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial upload",
+      "fileSize": "1.1 MB",
+      "createdAt": "2026-05-02T00:11:04.900Z",
+      "id": "JLw0-Zz"
+    },
+    {
+      "documentId": 4,
+      "version": "1.1.0",
+      "authorId": "1",
+      "changelog": "werwe",
+      "fileSize": 1117738,
+      "createdAt": "2026-05-02T00:11:35.771Z",
+      "id": "07as5_s"
+    },
+    {
+      "documentId": "36",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial upload",
+      "fileSize": "38 KB",
+      "createdAt": "2026-05-02T13:17:40.533Z",
+      "id": "qMeVAEc"
+    },
+    {
+      "documentId": "37",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial upload",
+      "fileSize": "510 KB",
+      "createdAt": "2026-05-02T14:02:58.198Z",
+      "id": "X1Agk1K"
+    },
+    {
+      "documentId": "38",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial upload",
+      "fileSize": "2.6 MB",
+      "createdAt": "2026-05-02T14:21:09.326Z",
+      "id": "GDBdujM"
+    },
+    {
+      "documentId": "39",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial upload",
+      "fileSize": "117 KB",
+      "createdAt": "2026-05-02T14:33:37.199Z",
+      "id": "FR3Dtxw"
+    },
+    {
+      "documentId": "40",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial upload",
+      "fileSize": "763 B",
+      "createdAt": "2026-05-02T15:14:48.022Z",
+      "id": "E-F0D8C"
+    },
+    {
+      "documentId": "41",
+      "version": "1.0.0",
+      "authorId": "1",
+      "changelog": "Initial upload",
+      "fileSize": "903 KB",
+      "createdAt": "2026-05-02T15:32:23.159Z",
+      "id": "MeCpeU1"
+    }
+  ],
+  "comments": [
+    {
+      "id": "c4",
+      "documentId": "3",
+      "authorId": "2",
+      "content": "The equipment allowance needs to be updated — it reflects last year's budget.",
+      "createdAt": "2024-04-06T09:00:00Z",
+      "edited": false
+    },
+    {
+      "id": "c5",
+      "documentId": "4",
+      "authorId": "3",
+      "content": "Love the new typography choices. The specimen sheets are very handy.",
+      "createdAt": "2024-03-29T08:30:00Z",
+      "edited": false
+    },
+    {
+      "id": "c6",
+      "documentId": "6",
+      "authorId": "3",
+      "content": "The attribution tracking section in chapter 4 is unclear. Can we schedule a walkthrough?",
+      "createdAt": "2024-04-03T15:45:00Z",
+      "edited": false
+    },
+    {
+      "documentId": "Ds8onyx",
+      "authorId": "1",
+      "content": "there is an error in this document",
+      "createdAt": "2026-04-18T15:03:51.326Z",
+      "edited": false,
+      "id": "yhsyPDG"
+    }
+  ]
+}

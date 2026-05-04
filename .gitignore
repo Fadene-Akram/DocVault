@@ -1,0 +1,42 @@
+############################
+# Frontend (React)
+############################
+
+# Dependencies
+Frontend/node_modules/
+
+# Production build
+Frontend/build/
+Frontend/dist/
+
+# Environment variables
+Frontend/.env
+Frontend/.env.local
+Frontend/.env.development.local
+Frontend/.env.test.local
+Frontend/.env.production.local
+
+# Logs
+Frontend/npm-debug.log*
+Frontend/yarn-debug.log*
+Frontend/yarn-error.log*
+Frontend/pnpm-debug.log*
+
+# OS / editor files
+Frontend/.DS_Store
+Frontend/.idea/
+Frontend/.vscode/
+
+
+############################
+# Playwright / E2E tests
+############################
+
+# Test results
+Frontend/test-results/
+
+# Playwright HTML report
+Frontend/playwright-report/
+
+# Playwright cache
+Frontend/.playwright/
