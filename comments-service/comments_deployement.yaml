@@ -1,0 +1,86 @@
+apiVersion: apps/v1
+kind: Deployment
+metadata:
+  name: comments-service
+  labels:
+    app: comments-service
+spec:
+  replicas: 1
+  selector:
+    matchLabels:
+      app: comments-service
+  template:
+    metadata:
+      labels:
+        app: comments-service
+    spec:
+      containers:
+        - name: comments-service
+          image: comments-service:latest
+          imagePullPolicy: Never # Use local image
+          ports:
+            - containerPort: 8083
+              name: http
+          env:
+            # Spring Configuration
+            - name: SPRING_PROFILES_ACTIVE
+              value: "k8s"
+
+            # PostgreSQL Connection
+            - name: SPRING_DATASOURCE_URL
+              value: "jdbc:postgresql://comments-postgres-service:5432/commentsdb"
+            - name: SPRING_DATASOURCE_DRIVERCLASSNAME
+              value: "org.postgresql.Driver"
+            - name: SPRING_DATASOURCE_USERNAME
+              value: "admin"
+            - name: SPRING_DATASOURCE_PASSWORD
+              value: "password123"
+
+            # JPA/Hibernate Configuration
+            - name: SPRING_JPA_DATABASE_PLATFORM
+              value: "org.hibernate.dialect.PostgreSQLDialect"
+            - name: SPRING_JPA_HIBERNATE_DDL_AUTO
+              value: "update"
+            - name: SPRING_JPA_SHOW_SQL
+              value: "false"
+
+            # Server Port
+            - name: SERVER_PORT
+              value: "8083"
+
+          resources:
+            requests:
+              cpu: "100m"
+              memory: "256Mi"
+            limits:
+              cpu: "500m"
+              memory: "512Mi"
+
+          # Liveness probe
+          livenessProbe:
+            httpGet:
+              path: /actuator/health/liveness
+              port: 8083
+            initialDelaySeconds: 30
+            periodSeconds: 10
+            timeoutSeconds: 5
+            failureThreshold: 3
+
+          # Readiness probe
+          readinessProbe:
+            httpGet:
+              path: /actuator/health/readiness
+              port: 8083
+            initialDelaySeconds: 20
+            periodSeconds: 5
+            timeoutSeconds: 5
+            failureThreshold: 3
+
+          volumeMounts:
+            - name: comments-storage
+              mountPath: /data/comments
+
+      volumes:
+        - name: comments-storage
+          persistentVolumeClaim:
+            claimName: comments-pvc

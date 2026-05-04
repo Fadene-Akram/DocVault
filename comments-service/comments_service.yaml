@@ -1,0 +1,12 @@
+apiVersion: v1
+kind: Service
+metadata:
+  name: comments-service
+spec:
+  selector:
+    app: comments-service
+  ports:
+    - port: 8083
+      targetPort: 8083
+      protocol: TCP
+  type: ClusterIP
